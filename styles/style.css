@@ -1,0 +1,75 @@
+body {
+  background-color: #33ca75 !important;
+}
+
+.nav-bg {
+  background-color: #fff !important;
+}
+
+.logo {
+  width: 150px;
+}
+
+.sign-in-form {
+  padding-top: 123px;
+}
+
+.sign-in-heading {
+  color: #fff;
+}
+
+.heading {
+  color: #fff;
+}
+
+.dropdown button {
+  background-color: #fff !important;
+  color: black;
+}
+
+.dropdown button:hover {
+  background-color: #fff !important;
+  color: black;
+}
+
+.dropdown button:after {
+  background-color: #fff !important;
+  color: black;
+}
+
+.nav-link {
+  color: #000000 !important;
+}
+
+.grid-item {
+  background-color: #f2eded;
+  border-radius: 10px;
+}
+
+.content-container {
+  margin-top: 70px;
+}
+
+.content {
+  background-color: #fff;
+}
+
+.table td,
+.table th {
+  padding: 8px !important;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+thead {
+  background-color: #e7eaee;
+}
+
+.details-card {
+  background-color: #4068b5 !important;
+  color: #fff;
+}
+
+.project-grid {
+  margin-top: 10px;
+}

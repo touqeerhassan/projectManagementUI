@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-bg fixed-top">
+            <div class="container">
+                <img class="logo" src="assets/images/zameen_complete_logo.png" alt="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-container">
+            <h3 class="heading">Add Project</h3>
+            <div class="content">
+                <div class="p-3">
+                    <div class="form-group">
+                        <label class="font-weight-bold">Title</label>
+                        <input type="text" class="form-control" placeholder="Project Name">
+                    </div>
+                    <div class="form-group">
+                        <label class="font-weight-bold">Description</label>
+                        <textarea class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="sel1" class="font-weight-bold">Team Lead:</label>
+                        <select class=" form-control " id="sel1 ">
+                            <option>Atif Aslam</option>
+                            <option>Ammar butt</option>
+                            <option>Bilal Ali</option>
+                            <option>Saqib Hassan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="font-weight-bold">Members:</label>
+                        <select multiple="" class="form-control" id="sel2">
+                            <option>Atif Aslam</option>
+                            <option>Ammar butt</option>
+                            <option>Bilal Ali</option>
+                            <option>Saqib Hassan</option>
+                            <option>Saqib Ali</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="font-weight-bold">Document</label>
+                        <input type="file" class="form-control-file">
+                    </div>
+                    <div class="text-right">
+                        <a href="#">Cancel</a>
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

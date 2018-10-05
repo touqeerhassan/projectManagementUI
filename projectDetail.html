@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project Management</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-bg fixed-top">
+            <div class="container">
+                <img class="logo" src="assets/images/zameen_complete_logo.png" alt="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-container">
+            <h3 class="heading">Project Detail</h3>
+            <div class="content p-3">
+                <h4>Project Management
+                    <button type="button" class="btn float-right">Edit</button>
+                </h4>
+
+                <br>
+                <br>
+                <div class="container">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header details-card">
+                                <span class="card-link" data-toggle="collapse" href="#collapseOne">
+                                    Details
+                                </span>
+                            </div>
+                            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div>
+                                                <div class="row">
+                                                    <span class="font-weight-bold col-md-4">Team Lead</span>
+                                                    <span class="col-md-7">Rana Umair Majeed</span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="row">
+                                                    <span class="font-weight-bold col-md-4">Document</span>
+                                                    <span class="col-md-7">
+                                                        <a href="#">SOW.pdf</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div>
+                                                <div class="row">
+                                                    <span class="font-weight-bold col-md-4">Members</span>
+                                                    <span class="col-md-7">Salman khan, Saqib Doger</span>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="row">
+                                                    <span class="font-weight-bold col-md-4">Manager</span>
+                                                    <span class="col-md-7">Faisal Sharif</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-3">
+                                        <p class="font-weight-bold">Desciption</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam perspiciatis veritatis
+                                            porro repudiandae quis vero. Consequuntur, voluptatibus assumenda soluta ullam
+                                            aut qui magni nesciunt laborum quidem atque nisi dolore provident!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="pt-2">
+                        <div class="card">
+                            <div class="card-header">
+                                <span class="card-link" data-toggle="collapse" href="#collapseOne">
+                                    Comments
+                                </span>
+                            </div>
+                            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <span class="font-weight-bold">Text</span>
+                                        </div>
+                                        <div class="col-md-10">
+                                            <textarea name="" rows="4" class="rounded w-100"></textarea>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary float-right">Submit</button>
+                                    <div class=" p-3 pt-5">
+                                        <h5 class="font-weight-bold">
+                                            <u>History</u>
+                                        </h5>
+                                        <div class="history">
+                                            <p class="font-weight-bold">Updated by
+                                                <a href="#">Ali Raza</a> 3 days ago</p>
+                                            <ul>
+                                                <li>Created
+                                                    <b>New</b> Project by
+                                                    <b>Shafiq Ahmed</b>
+                                                </li>
+                                            </ul>
+                                            <p>user degree dropdown should show only those degree for which users data is available
+                                                in report</p>
+                                        </div>
+                                        <div class="history">
+                                            <p class="font-weight-bold">Updated by
+                                                <a href="#">Ali Raza</a> 3 days ago</p>
+                                            <ul>
+                                                <li>Created
+                                                    <b>New</b> Project by
+                                                    <b>Shafiq Ahmed</b>
+                                                </li>
+                                            </ul>
+                                            <p>user degree dropdown should show only those degree for which users data is available
+                                                in report</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
